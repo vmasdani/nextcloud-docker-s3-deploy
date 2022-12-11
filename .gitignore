@@ -1,0 +1,4 @@
+__pycache__
+docker-compose-minio.yml
+docker-compose.yml
+config.yml

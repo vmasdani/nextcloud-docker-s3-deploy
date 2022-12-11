@@ -1,0 +1,24 @@
+env:
+  dev:
+    nextcloud_minio_url: 172.17.0.1
+    minio_access_key: myaccesskey
+    minio_secret_key: mysecretkey
+    minio_root_user: myrootuser
+    minio_root_password: myrootpassword
+    minio_port: 3001
+    minio_console_port: 3002
+
+    # Nextcloud
+    nextcloud_port: 3000
+
+  prod:
+    nextcloud_minio_url: 172.17.0.1
+    minio_access_key: myaccesskey
+    minio_secret_key: mysecretkey
+    minio_root_user: myrootuser
+    minio_root_password: myrootpassword
+    minio_port: 3001
+    minio_console_port: 3002
+
+    # Nextcloud
+    nextcloud_port: 3000
