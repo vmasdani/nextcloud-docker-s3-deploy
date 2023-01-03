@@ -51,6 +51,7 @@ elif args.subapp == 'nextcloud':
 
     if args.action == 'run':
         steps = [
+            ('docker build -f Dockerfile.full -t nextcloudfull .', '.'),
             ('docker compose up', '.')
         ]
 
