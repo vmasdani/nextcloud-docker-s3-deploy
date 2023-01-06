@@ -7,6 +7,7 @@ env:
     minio_root_password: myrootpassword
     minio_port: 3001
     minio_console_port: 3002
+    nextcloud_use_ssl: "false"
 
     # Nextcloud
     nextcloud_port: 3000
@@ -17,8 +18,9 @@ env:
     minio_secret_key: mysecretkey
     minio_root_user: myrootuser
     minio_root_password: myrootpassword
-    minio_port: 3001
+    minio_port: 443
     minio_console_port: 3002
+    nextcloud_use_ssl: "true"
 
     # Nextcloud
     nextcloud_port: 3000
