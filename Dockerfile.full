@@ -58,6 +58,6 @@ COPY supervisord.conf /
 ENV NEXTCLOUD_UPDATE=1
 
 # copy config with preview mp4 generation
-COPY config.php /var/www/html/config/config.php
+#COPY config.php /var/www/html/config/config.php
 
 CMD ["/usr/bin/supervisord", "-c", "/supervisord.conf"]
